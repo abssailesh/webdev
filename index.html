@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Reviews</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins';
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .book-list{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .book {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 10px 10px #f6f6f6;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border-radius: 30px;
+    }
+    .book:hover{
+      scale: 1.03;
+    }
+    .book h3 {
+      margin: 0;
+    }
+    .reviews {
+      margin-top: 10px;
+    }
+    .review {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div></div><h1>Book Reviews</h1></div>
+  <div id="book-list" class="book-list"></div>
+  <script src="assignment6.js"></script>
+</body>
+</html>
